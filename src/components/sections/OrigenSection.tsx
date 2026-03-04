@@ -23,19 +23,16 @@ const OrigenSection = () => {
               especialmente adultos mayores, jóvenes y comunidades en situación de vulnerabilidad.
             </p>
           </div>
-
           <div className="rounded-lg overflow-hidden aspect-[4/3]">
-  <img
-    src="/images/origen.jpg"
-    alt="Corporación Despertar por el Arte y la Cultura"
-    className="w-full h-full object-cover"
-  />
-</div>
+            <img
+              src="/images/origen.jpg"
+              alt="Corporación Despertar por el Arte y la Cultura"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
     </section>
   );
 };
-
 export default OrigenSection;
