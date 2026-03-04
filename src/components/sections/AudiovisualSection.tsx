@@ -20,7 +20,7 @@ const AudiovisualSection = () => {
 
           <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
             <iframe
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src="https://www.youtube.com/embed/9J-X877WPZw"
               title="Héctor Saúl Arias - Despertar por el Arte y la Cultura"
               className="w-full h-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
