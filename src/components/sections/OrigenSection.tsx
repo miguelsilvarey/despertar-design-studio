@@ -24,14 +24,13 @@ const OrigenSection = () => {
             </p>
           </div>
 
-          <div className="bg-muted rounded-lg aspect-[4/3] flex items-center justify-center">
-            <div className="text-center text-muted-foreground">
-              <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <span className="text-4xl">🎨</span>
-              </div>
-              <p className="text-sm">Imagen placeholder</p>
-              <p className="text-xs opacity-60">Se reemplazará con foto real</p>
-            </div>
+          <div className="rounded-lg overflow-hidden aspect-[4/3]">
+  <img
+    src="/images/origen.jpg"
+    alt="Corporación Despertar por el Arte y la Cultura"
+    className="w-full h-full object-cover"
+  />
+</div>
           </div>
         </div>
       </div>
