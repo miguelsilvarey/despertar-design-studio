@@ -21,10 +21,10 @@ const HeroSection = () => {
           </footer>
         </blockquote>
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-  <Button size="lg" className="bg-primary text-white hover:bg-primary/90" asChild>
+  <Button size="lg" className="!text-white !bg-primary hover:!bg-primary/90" asChild>
     <Link to="/nosotros">Conócenos</Link>
   </Button>
-  <Button size="lg" variant="outline" className="border-white/60 text-white hover:bg-white/10" asChild>
+  <Button size="lg" variant="outline" className="!text-white border-white/60 hover:bg-white/10" asChild>
     <Link to="/contacto">Contáctanos</Link>
   </Button>
 </div>
