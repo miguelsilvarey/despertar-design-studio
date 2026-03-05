@@ -22,18 +22,19 @@ const HeroSection = () => {
           </footer>
         </blockquote>
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" onClick={() => navigate("/nosotros")}>
-            Conócenos
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-white/60 text-white hover:bg-white/10"
-            onClick={() => navigate("/contacto")}
-          >
-            Contáctanos
-          </Button>
-        </div>
+  <button
+    onClick={() => navigate("/nosotros")}
+    className="h-11 rounded-md px-8 text-sm font-medium bg-primary text-white hover:bg-primary/90 transition-colors"
+  >
+    Conócenos
+  </button>
+  <button
+    onClick={() => navigate("/contacto")}
+    className="h-11 rounded-md px-8 text-sm font-medium border border-white/60 text-white hover:bg-white/10 transition-colors"
+  >
+    Contáctanos
+  </button>
+</div>
       </div>
     </section>
   );
