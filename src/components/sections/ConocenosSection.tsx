@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const ConocenosSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="bg-primary py-12">
       <div className="container text-center text-primary-foreground">
@@ -11,9 +11,12 @@ const ConocenosSection = () => {
         <p className="text-lg opacity-90 mb-6 max-w-2xl mx-auto">
           Descubre cómo el arte y la cultura transforman vidas en nuestra comunidad.
         </p>
-        <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10" asChild>
-          <Link to="/contacto">Contáctanos</Link>
-        </Button>
+        <button
+          onClick={() => navigate("/contacto")}
+          className="h-10 rounded-md px-8 text-sm font-medium border border-white text-white hover:bg-white/10 transition-colors"
+        >
+          Contáctanos
+        </button>
       </div>
     </section>
   );
