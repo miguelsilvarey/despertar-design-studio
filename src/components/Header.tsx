@@ -19,13 +19,12 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-border">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-heading font-bold text-lg">D</span>
-          </div>
-          <span className="font-heading font-bold text-sm md:text-base text-secondary leading-tight">
-            Despertar por el Arte<br />y la Cultura
-          </span>
-        </Link>
+  <img
+    src="/logo_horizontal_color.webp"
+    alt="Corporación Despertar por el Arte y la Cultura"
+    className="h-12 w-auto"
+  />
+</Link>
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">
