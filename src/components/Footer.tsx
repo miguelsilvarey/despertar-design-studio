@@ -43,13 +43,13 @@ const Footer = () => {
             </li>
           </ul>
           <div className="flex gap-3 mt-4">
-            <a href="https://www.facebook.com/DespertarArteCultura" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+            <a href="https://www.facebook.com/Corporaciondespertarporelarteylacultura" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <Facebook className="h-5 w-5" />
             </a>
-            <a href="https://www.instagram.com/despertararteycultura/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+            <a href="https://www.facebook.com/Corporaciondespertarporelarteylacultura" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <Instagram className="h-5 w-5" />
             </a>
-            <a href="https://www.youtube.com/@despertararteycultura" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+            <a href="https://youtube.com/@corporaciondespertarporela3227?si=fR5U-OLao277L8yw target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
               <Youtube className="h-5 w-5" />
             </a>
           </div>
